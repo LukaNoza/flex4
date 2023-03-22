@@ -1,0 +1,52 @@
+body{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.parent{
+    position: relative;
+    border: 1px solid white;
+    width: 1000px;
+    height: 600px;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(0, 255, 0);
+    height: 100px;
+}
+
+.nav{
+    width: 25%;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+}
+
+.article{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(255, 153, 1);
+    float: left;
+}
+
+.aside{
+    width: 25%;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+}
+
+.footer{
+    width: 100%;
+    clear: both;
+    background-color: rgb(0, 255, 0);
+    height: 100px;
+}
